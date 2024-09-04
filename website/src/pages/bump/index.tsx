@@ -3,7 +3,7 @@ import range from 'lodash/range'
 import shuffle from 'lodash/shuffle'
 import { graphql, useStaticQuery } from 'gatsby'
 import { ResponsiveBump, bumpSvgDefaultProps as defaults, BumpCommonProps } from '@nivo/bump'
-import { ModernMotionProps } from '@nivo/core'
+import { MotionProps } from '@nivo/core'
 import { AxisProps } from '@nivo/axes'
 import { ComponentTemplate } from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/bump/meta.yml'
@@ -45,7 +45,7 @@ type Props = Omit<
     BumpCommonProps<Datum, {}>,
     'theme' | 'onMouseEnter' | 'onMouseMove' | 'onMouseLeave' | 'onClick' | 'renderWrapper'
 > &
-    ModernMotionProps
+    MotionProps
 
 type UnmappedProps = Omit<Props, 'axisTop' | 'axisRight' | 'axisBottom' | 'axisLeft'> & {
     axisTop: AxisProps & { enable: boolean }
@@ -86,6 +86,7 @@ const initialProperties: UnmappedProps = {
         legend: '',
         legendPosition: 'middle',
         legendOffset: -36,
+        truncateTickAt: 0,
     },
     axisRight: {
         enable: false,
@@ -96,6 +97,7 @@ const initialProperties: UnmappedProps = {
         legend: 'ranking',
         legendPosition: 'middle',
         legendOffset: 40,
+        truncateTickAt: 0,
     },
     axisBottom: {
         enable: true,
@@ -105,6 +107,7 @@ const initialProperties: UnmappedProps = {
         legend: '',
         legendPosition: 'middle',
         legendOffset: 32,
+        truncateTickAt: 0,
     },
     axisLeft: {
         enable: true,
@@ -115,6 +118,7 @@ const initialProperties: UnmappedProps = {
         legend: 'ranking',
         legendPosition: 'middle',
         legendOffset: -40,
+        truncateTickAt: 0,
     },
 }
 

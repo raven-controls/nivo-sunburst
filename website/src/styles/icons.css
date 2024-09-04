@@ -1,4 +1,4 @@
-/* glue: 0.13 hash: cc3bb7ef36 */
+/* glue: 0.13 hash: 78b58a59dc */
 .sprite-icons-waffle-light-neutral,
 .sprite-icons-waffle-light-colored,
 .sprite-icons-waffle-dark-neutral,
@@ -116,6 +116,10 @@
 .sprite-icons-bullet-light-colored,
 .sprite-icons-bullet-dark-neutral,
 .sprite-icons-bullet-dark-colored,
+.sprite-icons-boxplot-light-neutral,
+.sprite-icons-boxplot-light-colored,
+.sprite-icons-boxplot-dark-neutral,
+.sprite-icons-boxplot-dark-colored,
 .sprite-icons-bar-light-neutral,
 .sprite-icons-bar-light-colored,
 .sprite-icons-bar-dark-neutral,
@@ -830,50 +834,74 @@
     height: 52px;
 }
 
-.sprite-icons-bar-light-neutral {
+.sprite-icons-boxplot-light-neutral {
     background-position: -424px -604px;
     width: 52px;
     height: 52px;
 }
 
-.sprite-icons-bar-light-colored {
+.sprite-icons-boxplot-light-colored {
     background-position: -484px -604px;
     width: 52px;
     height: 52px;
 }
 
-.sprite-icons-bar-dark-neutral {
+.sprite-icons-boxplot-dark-neutral {
     background-position: -544px -604px;
     width: 52px;
     height: 52px;
 }
 
-.sprite-icons-bar-dark-colored {
+.sprite-icons-boxplot-dark-colored {
     background-position: -604px -604px;
     width: 52px;
     height: 52px;
 }
 
-.sprite-icons-area-bump-light-neutral {
+.sprite-icons-bar-light-neutral {
     background-position: -664px -4px;
     width: 52px;
     height: 52px;
 }
 
-.sprite-icons-area-bump-light-colored {
+.sprite-icons-bar-light-colored {
     background-position: -664px -64px;
     width: 52px;
     height: 52px;
 }
 
-.sprite-icons-area-bump-dark-neutral {
+.sprite-icons-bar-dark-neutral {
     background-position: -664px -124px;
     width: 52px;
     height: 52px;
 }
 
-.sprite-icons-area-bump-dark-colored {
+.sprite-icons-bar-dark-colored {
     background-position: -664px -184px;
+    width: 52px;
+    height: 52px;
+}
+
+.sprite-icons-area-bump-light-neutral {
+    background-position: -664px -244px;
+    width: 52px;
+    height: 52px;
+}
+
+.sprite-icons-area-bump-light-colored {
+    background-position: -664px -304px;
+    width: 52px;
+    height: 52px;
+}
+
+.sprite-icons-area-bump-dark-neutral {
+    background-position: -664px -364px;
+    width: 52px;
+    height: 52px;
+}
+
+.sprite-icons-area-bump-dark-colored {
+    background-position: -664px -424px;
     width: 52px;
     height: 52px;
 }
@@ -1000,6 +1028,10 @@
     .sprite-icons-bullet-light-colored,
     .sprite-icons-bullet-dark-neutral,
     .sprite-icons-bullet-dark-colored,
+    .sprite-icons-boxplot-light-neutral,
+    .sprite-icons-boxplot-light-colored,
+    .sprite-icons-boxplot-dark-neutral,
+    .sprite-icons-boxplot-dark-colored,
     .sprite-icons-bar-light-neutral,
     .sprite-icons-bar-light-colored,
     .sprite-icons-bar-dark-neutral,
@@ -1137,6 +1169,10 @@
     .sprite-icons-bullet-light-colored,
     .sprite-icons-bullet-dark-neutral,
     .sprite-icons-bullet-dark-colored,
+    .sprite-icons-boxplot-light-neutral,
+    .sprite-icons-boxplot-light-colored,
+    .sprite-icons-boxplot-dark-neutral,
+    .sprite-icons-boxplot-dark-colored,
     .sprite-icons-bar-light-neutral,
     .sprite-icons-bar-light-colored,
     .sprite-icons-bar-dark-neutral,

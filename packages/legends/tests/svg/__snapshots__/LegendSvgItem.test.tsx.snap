@@ -3,7 +3,7 @@
 exports[`should support bottom-to-top direction 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -16,7 +16,7 @@ exports[`should support bottom-to-top direction 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -29,7 +29,7 @@ exports[`should support bottom-to-top direction 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -39,11 +39,13 @@ exports[`should support bottom-to-top direction 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "alphabetic",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
@@ -60,7 +62,7 @@ exports[`should support bottom-to-top direction 1`] = `
 exports[`should support bottom-to-top direction justified 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -73,7 +75,7 @@ exports[`should support bottom-to-top direction justified 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -86,7 +88,7 @@ exports[`should support bottom-to-top direction justified 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -96,11 +98,13 @@ exports[`should support bottom-to-top direction justified 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "text-before-edge",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
@@ -117,7 +121,7 @@ exports[`should support bottom-to-top direction justified 1`] = `
 exports[`should support left-to-right direction 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -130,7 +134,7 @@ exports[`should support left-to-right direction 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -143,7 +147,7 @@ exports[`should support left-to-right direction 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -153,11 +157,13 @@ exports[`should support left-to-right direction 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "central",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
@@ -174,7 +180,7 @@ exports[`should support left-to-right direction 1`] = `
 exports[`should support left-to-right direction justified 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -187,7 +193,7 @@ exports[`should support left-to-right direction justified 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -200,7 +206,7 @@ exports[`should support left-to-right direction justified 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -210,11 +216,13 @@ exports[`should support left-to-right direction justified 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "central",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
@@ -231,7 +239,7 @@ exports[`should support left-to-right direction justified 1`] = `
 exports[`should support right-to-left direction 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -244,7 +252,7 @@ exports[`should support right-to-left direction 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -257,7 +265,7 @@ exports[`should support right-to-left direction 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -267,11 +275,13 @@ exports[`should support right-to-left direction 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "central",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
@@ -288,7 +298,7 @@ exports[`should support right-to-left direction 1`] = `
 exports[`should support right-to-left direction justified 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -301,7 +311,7 @@ exports[`should support right-to-left direction justified 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -314,7 +324,7 @@ exports[`should support right-to-left direction justified 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -324,11 +334,13 @@ exports[`should support right-to-left direction justified 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "central",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
@@ -345,7 +357,7 @@ exports[`should support right-to-left direction justified 1`] = `
 exports[`should support top-to-bottom direction 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -358,7 +370,7 @@ exports[`should support top-to-bottom direction 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -371,7 +383,7 @@ exports[`should support top-to-bottom direction 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -381,11 +393,13 @@ exports[`should support top-to-bottom direction 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "text-before-edge",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
@@ -402,7 +416,7 @@ exports[`should support top-to-bottom direction 1`] = `
 exports[`should support top-to-bottom direction justified 1`] = `
 <g
   style={
-    Object {
+    {
       "opacity": 1,
     }
   }
@@ -415,7 +429,7 @@ exports[`should support top-to-bottom direction justified 1`] = `
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     style={
-      Object {
+      {
         "cursor": "auto",
       }
     }
@@ -428,7 +442,7 @@ exports[`should support top-to-bottom direction justified 1`] = `
     stroke="transparent"
     strokeWidth={0}
     style={
-      Object {
+      {
         "pointerEvents": "none",
       }
     }
@@ -438,11 +452,13 @@ exports[`should support top-to-bottom direction justified 1`] = `
   />
   <text
     style={
-      Object {
+      {
         "dominantBaseline": "alphabetic",
         "fill": "#333333",
         "fontFamily": "sans-serif",
         "fontSize": 11,
+        "outlineColor": "transparent",
+        "outlineWidth": 0,
         "pointerEvents": "none",
         "userSelect": "none",
       }
