@@ -42,5 +42,11 @@
     },
     "publishConfig": {
         "access": "public"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.5"
+    },
+    "scripts": {
+      "build": "tsc --outDir dist --declaration --sourceMap --declarationMap"
     }
 }
