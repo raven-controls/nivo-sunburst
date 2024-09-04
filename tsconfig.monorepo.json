@@ -5,6 +5,7 @@
         // { "path": "./packages/core" },
 
         // Shared next because charts need them
+        { "path": "./packages/canvas" },
         { "path": "./packages/annotations" },
         { "path": "./packages/scales" },
         { "path": "./packages/axes" },
@@ -14,6 +15,7 @@
         { "path": "./packages/arcs" },
         { "path": "./packages/polar-axes" },
         { "path": "./packages/voronoi" },
+        { "path": "./packages/grid" },
 
         // Utility packages
         { "path": "./packages/generators" },
@@ -21,6 +23,7 @@
 
         // Charts now
         { "path": "./packages/bar" },
+        { "path": "./packages/boxplot" },
         { "path": "./packages/bullet" },
         { "path": "./packages/bump" },
         { "path": "./packages/calendar" },
@@ -39,6 +42,7 @@
         { "path": "./packages/stream" },
         { "path": "./packages/swarmplot" },
         { "path": "./packages/treemap" },
+        { "path": "./packages/waffle" },
 
         // Static rendering and express middleware
         { "path": "./packages/static" },

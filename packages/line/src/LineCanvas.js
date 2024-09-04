@@ -18,59 +18,75 @@ import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
 import { renderLegendToCanvas } from '@nivo/legends'
 import { useTooltip } from '@nivo/tooltip'
 import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
-import { LineCanvasPropTypes, LineCanvasDefaultProps } from './props'
+import { LineCanvasPropTypes } from './props'
 import { useLine } from './hooks'
+import PointTooltip from './PointTooltip'
 
-const LineCanvas = ({
-    width,
-    height,
-    margin: partialMargin,
-    pixelRatio,
-
-    data,
-    xScale: xScaleSpec,
-    xFormat,
-    yScale: yScaleSpec,
-    yFormat,
-    curve,
-
-    layers,
-
-    colors,
-    lineWidth,
-
-    enableArea,
-    areaBaselineValue,
-    areaOpacity,
-
-    enablePoints,
-    pointSize,
-    pointColor,
-    pointBorderWidth,
-    pointBorderColor,
-
-    enableGridX,
-    gridXValues,
-    enableGridY,
-    gridYValues,
-    axisTop,
-    axisRight,
-    axisBottom,
-    axisLeft,
-
-    legends,
-
-    isInteractive,
-    debugMesh,
-    //onMouseEnter,
-    //onMouseMove,
-    onMouseLeave,
-    onClick,
-    tooltip,
-
-    canvasRef,
-}) => {
+const LineCanvas = props => {
     const canvasEl = useRef(null)
+    const {
+        width,
+        height,
+        margin: partialMargin,
+        pixelRatio = typeof window !== 'undefined' ? window.devicePixelRatio || 1 : 1,
+
+        data,
+        xScale: xScaleSpec = { type: 'point' },
+        xFormat,
+        yScale: yScaleSpec = {
+            type: 'linear',
+            min: 0,
+            max: 'auto',
+        },
+        yFormat,
+        curve = 'linear',
+
+        layers = [
+            'grid',
+            'markers',
+            'axes',
+            'areas',
+            'crosshair',
+            'lines',
+            'points',
+            'slices',
+            'mesh',
+            'legends',
+        ],
+
+        colors = { scheme: 'nivo' },
+        lineWidth = 2,
+
+        enableArea = false,
+        areaBaselineValue = 0,
+        areaOpacity = 0.2,
+
+        enablePoints = true,
+        pointSize = 6,
+        pointColor = { from: 'color' },
+        pointBorderWidth = 0,
+        pointBorderColor = { theme: 'background' },
+
+        enableGridX = true,
+        gridXValues,
+        enableGridY = true,
+        gridYValues,
+        axisTop,
+        axisRight,
+        axisBottom = {},
+        axisLeft = {},
+
+        legends = [],
+
+        isInteractive = true,
+        debugMesh = false,
+        //onMouseEnter,
+        //onMouseMove,
+        onMouseLeave,
+        onClick,
+        tooltip = PointTooltip,
+        canvasRef,
+    } = props
     const { margin, innerWidth, innerHeight, outerWidth, outerHeight } = useDimensions(
         width,
         height,
@@ -330,7 +346,6 @@ const LineCanvas = ({
 }
 
 LineCanvas.propTypes = LineCanvasPropTypes
-LineCanvas.defaultProps = LineCanvasDefaultProps
 
 const LineCanvasWithContainer = withContainer(LineCanvas)
 

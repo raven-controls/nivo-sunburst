@@ -1,5 +1,6 @@
 import areaBump from './components/area-bump/meta.yml'
 import bar from './components/bar/meta.yml'
+import boxplot from './components/boxplot/meta.yml'
 import circlePacking from './components/circle-packing/meta.yml'
 import bump from './components/bump/meta.yml'
 import bullet from './components/bullet/meta.yml'
@@ -44,6 +45,14 @@ export const components: ChartNavData[] = [
             svg: true,
             canvas: true,
             api: true,
+        },
+    },
+    {
+        name: 'BoxPlot',
+        id: 'boxplot',
+        tags: boxplot.BoxPlot.tags,
+        flavors: {
+            svg: true,
         },
     },
     {
